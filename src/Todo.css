@@ -1,0 +1,21 @@
+.deleteButton,
+.editButton :hover {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.singleTodo {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 1px lightgray;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #c6ecae;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
